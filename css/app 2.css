@@ -1,0 +1,45 @@
+.main { 
+	max-width: 750px; 
+	}
+	
+.col1 { 
+	height: 375px; 
+	background-color: red; 
+	}
+	
+.col2 { 
+	height: 750px; 
+	background-color: red; 
+	}
+	
+	
+/* Small only */
+@media screen and (max-width: 23.438em) {
+	
+	.main { 
+		max-width: 750px; 
+		}
+	
+	.col1 { 
+		height: 187px; 
+		background-color: red; 
+		}
+
+	.col2 { 
+		height: 375px; 
+		background-color: red; 
+		}
+	
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}

@@ -1,0 +1,128 @@
+.col_section { 
+	min-width: 750px; 
+	display: table; 
+	margin: 0; 
+	padding:0;margin: auto;
+	}
+	
+.col1_wrapper { 
+	width: 250px;
+	background-color: red; 
+	border: 0; 
+	margin: 0; 
+	padding: 0; 
+	display: inline-block; 
+	vertical-align: top; 
+	}
+	
+.col1 { 
+	width: 250px;
+	height: 375px; 
+	background-color: red; 
+	border: 0; 
+	margin: 0; 
+	padding: 0; 
+	display: inline-block; 
+	vertical-align: top; 
+	border-top: 1px solid #ffffff; 
+	}
+	
+.col2a { 
+	width: 499px;
+	height: 751px; 
+	background-color: red; 
+	border: 0; 
+	margin: 0; 
+	padding: 0; 
+	display: inline-block; 
+	vertical-align: top; 
+	border-right: 1px solid #ffffff; 
+	border-top: 1px solid #ffffff; 
+	}
+	
+.col2b { 
+	width: 499px;
+	height: 751px; 
+	background-color: red; 
+	border: 0; 
+	margin: 0; 
+	padding: 0; 
+	display: inline-block; 
+	vertical-align: top; 
+	border-left: 1px solid #ffffff; 
+	border-top: 1px solid #ffffff; 
+	}
+	
+	
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	
+	.col_section { 
+	min-width: 375px; 
+	display: table; 
+	margin: 0; 
+	padding:0; 
+	margin: auto;
+	}
+	
+.col1_wrapper { 
+	width: 125px; 
+	background-color: red; 
+	border: 0; 
+	margin: 0; 
+	padding: 0; 
+	display: inline-block; 
+	vertical-align: top; 
+	}
+	
+.col1 { 
+	width: 125px;
+	height: 187px; 
+	background-color: red; 
+	border: 0; 
+	margin: 0; 
+	padding: 0; 
+	display: inline-block; 
+	vertical-align: top; 
+	border-top: 1px solid #ffffff; 
+	}
+	
+.col2a { 
+	width: 250px;
+	height: 375px; 
+	background-color: red; 
+	border: 0; 
+	margin: 0; 
+	padding: 0; 
+	display: inline-block; 
+	vertical-align: top; 
+	border-right: 1px solid #ffffff; 
+	border-top: 1px solid #ffffff; 
+	}
+	
+.col2b { 
+	width: 250px;
+	height: 375px; 
+	background-color: red; 
+	border: 0; 
+	margin: 0; 
+	padding: 0; 
+	display: inline-block; 
+	vertical-align: top; 
+	border-left: 1px solid #ffffff; 
+	border-top: 1px solid #ffffff; 
+	}
+	
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
