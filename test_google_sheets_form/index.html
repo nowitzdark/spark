@@ -35,7 +35,22 @@ TEST GOOGLE SHEETS FORM<br />
   </div>
 
 </form>
+<script>
 
+var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbzziFGQ5-LQ06DXeV51mxi4T2mvSNeNpQPkCd8MRTkR6N9EERea/exec'
 
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
+</script>
 </body>
 </html>
